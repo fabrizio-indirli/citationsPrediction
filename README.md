@@ -24,14 +24,14 @@ has the form *Source_Node_ID, Target_Node_ID, Exist* and the associated edge *(S
 
 ### How to run the code
 1. Default *training_set.txt, testing_set.txt* and *node_information.csv* files are already provided. <br>
-**If you want to use yours**, put them (with the same names and structure!) in the root folder where the *create_features.py* and *model.py* files are, replacing the default ones, and delete all the contend of the **data** folder.
+**If you want to use yours**, put them (with the same names and structure!) in the root folder where the *create_features.py* and *model.py* files are, replacing the default ones, and delete all the content of the **data** folder.
 2. Run create_features.py to generate the files containing the features
 
-    WARNING: 
+    **WARNING**: 
 	The calculation of one of the features (TFIDF cosine similarity) requires about 13 GB of ram on the provided dataset and might fail with "MemoryError" if not enough memory is available.
     This is why we provide this feature already calculated for the default dataset in the *"training_sims.csv"* and *"testing_sims.csv"* files inside the **data** folder, but it can be computed from scratch on a computer with enough memory
 
-    REMARKS:
+    **REMARKS**:
     * As it takes a lot of time to create them, the following feature files are already provided, too:
 	*closeness_centrality_nodes.txt*, *number_paths_testing.txt, number_paths_training.txt, hits_infos.csv* <br>
 
@@ -41,5 +41,5 @@ has the form *Source_Node_ID, Target_Node_ID, Exist* and the associated edge *(S
  	
 2. Run model.py to generate the predictions
     
-    REMARK: 
+    **REMARK**: 
 	The predictions will be stored in the folder **predictions**.
