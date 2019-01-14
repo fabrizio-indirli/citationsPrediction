@@ -11,6 +11,7 @@ obtaining an F1 score of almost 0.97.
 Among all the features, 6 of them largely affect the predictions performance: *number of paths, TFIDF cosine similarities of
 abstracts, source hub score, target authority score* and the *Resource Allocation index*.
 Between the various classifiers that were tried, **XGBoost** and **Neural Network** produced the best results.
+You can read more on our results and methodology in *report.pdf* and *presentation.pdf*
 
 ### Folders structure
 - Folder **scripts** contains the feature-generation scripts that are called by *create_features.py*
