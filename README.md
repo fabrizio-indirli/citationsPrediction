@@ -1,6 +1,6 @@
 # Links prediction in Citation Networks
 Repository for the project of the INF554 Machine Learning 1 course. <br>
-This project was developed by Fabrizio Indirli, Leon Kloten, Martin Wohlfender and Seongbin Lim
+This project was developed by Fabrizio Indirli, Leon Kloten, Martin Wohlfender and Seongbin Lim.
 
 ### Introduction
 The project consisted in predicting missing links in a citation network.
@@ -10,8 +10,8 @@ To do so, 17 features have been extracted from the given data and various superv
 obtaining an F1 score of almost 0.97.
 Among all the features, 6 of them largely affect the predictions performance: *number of paths, TFIDF cosine similarities of
 abstracts, source hub score, target authority score* and the *Resource Allocation index*.
-Between the various classifiers that were tried, **XGBoost** and **Neural Network** produced the best results.
-You can read more on our results and methodology in *report.pdf* and *presentation.pdf*
+Between the various classifiers that were tried, **XGBoost** and **Neural Network** produced the best results.<br>
+You can read more on our results and methodology in *report.pdf* and *presentation.pdf*.
 
 ### Folders structure
 - Folder **scripts** contains the feature-generation scripts that are called by *create_features.py*
