@@ -1,5 +1,5 @@
 # Links prediction in Citation Networks
-Repository for the project of the INF554 Machine Learning 1 course
+Repository for the project of the INF554 Machine Learning 1 course. <br>
 This project was developed by Fabrizio Indirli, Leon Kloten, Martin Wohlfender and Seongbin Lim
 
 ### Introduction
