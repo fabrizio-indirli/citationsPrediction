@@ -21,6 +21,8 @@ You can read more on our results and methodology in *report.pdf* and *presentati
 - *training_set.txt* contains the known datas on the edges of the citation network: each line of this file
 has the form *Source_Node_ID, Target_Node_ID, Exist* and the associated edge *(Source_Node_ID, Target_Node_ID)* exists in the citation network only if the value of *Exists* = 1
 - *testing_set.txt* contains possible edges *Source_Node_ID, Target_Node_ID* that have to be classified
+- *create_features.py* is the script that has to be called to generate the features' files in the **data** folder.
+- *model.py* is the script that executes the model and outputs a prediction in the **predictions** folder; it requires that all the features' files are present in the **data** folder (run *create_features.py* to create those files).
 - *report.pdf* is a short (4 pages) report of the project
 - *presentation.pdf* is the longer presentation of the project
 
